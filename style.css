@@ -1,0 +1,250 @@
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+/* MAIN -----------------------------------------------*/
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 36px;
+}
+
+#page-title {
+  color: green;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+
+#title1 {
+  color: red;
+}
+
+#title2 {
+  color: orange;
+}
+
+#title3 {
+  color: blue;
+}
+
+#title-sub {
+  color: purple;
+  font-size: 24px;
+  text-align: center;
+}
+
+#mobile-sub {
+  color: purple;
+  font-size: 24px;
+  text-align: center;
+  display: none;
+}
+
+.spacer {
+  height: 50px;
+}
+
+/* CARDS ---------------------------------------------*/
+/* Card animation credit - smashtheshell - https://codepen.io/smashtheshell/pen/XmmzVq */
+.align {
+  padding-top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.card-container {
+  -webkit-perspective: 1200;
+  -moz-perspective: 1200;
+  perspective: 1200;
+}
+
+.card-vertical, .card-horizontal {
+  height: 250px;
+  width: 400px;
+  box-shadow: 0 6px 8px #bbb;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transition: all 0.4s ease;
+  margin: 20px;
+}
+
+.card-front, .card-back {
+  color: #fafafa;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #0096FF;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card-back {
+  -moz-transform: rotateY(179.9deg);
+  -webkit-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
+  background: #228B22;
+}
+
+.card-front-content, .card-back-content {
+  padding: 2em;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 2.6em;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.card-back-hr {
+  -webkit-transform: rotateX(179.9deg);
+  -moz-transform: rotateX(179.9deg);
+  transform: rotateX(179.9deg);
+}
+
+.card-vertical:hover {
+  -webkit-transform: rotateY(179.9deg);
+  -moz-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
+}
+
+.card-horizontal:hover {
+  -webkit-transform: rotateX(179.9deg);
+  -moz-transform: rotateX(179.9deg);
+  transform: rotateX(179.9deg);
+}
+
+.card-img {
+  height: 200px;
+  width: 300px;
+}
+
+#card2 {
+  background: red;
+}
+
+#card3 {
+  background: orange;
+}
+
+#card4 {
+  background: purple;
+}
+
+#card5 {
+  background: yellow;
+}
+
+#card6 {
+  background: pink;
+}
+
+#card8 {
+  background: red;
+}
+
+#card9 {
+  background: orange;
+}
+
+#card10 {
+  background: purple;
+}
+
+#card11 {
+  background: yellow;
+}
+
+#card12 {
+  background: pink;
+}
+
+#card14 {
+  background: red;
+}
+
+#card15 {
+  background: orange;
+}
+
+#card16 {
+  background: purple;
+}
+
+#card17 {
+  background: yellow;
+}
+
+#card18 {
+  background: pink;
+}
+
+#card20 {
+  background: red;
+}
+
+#card21 {
+  background: orange;
+}
+
+#card22 {
+  background: purple;
+}
+
+#card23 {
+  background: yellow;
+}
+
+#card24 {
+  background: pink;
+}
+
+#card26 {
+  background: red;
+}
+
+/* SIGN-OFF --------------------------------------------*/
+/*designed by & contact*/
+#contact-section {
+  color: black;
+  text-align: center;
+  min-height: 33vh;
+  background-color: white;
+}
+
+.contact-links {
+  height: auto;
+  width: 25%;
+  display: inline-block;
+  padding: 20px;
+}
+
+.link-cont {
+  float: left;
+  width: 25%;
+}
+
+.contact-img {
+  height: 75px;
+  width: 75px;
+}
+
+#git-logo {
+  height: 75px;
+  width: 100px;
+}
