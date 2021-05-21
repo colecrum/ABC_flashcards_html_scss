@@ -53,6 +53,24 @@ p {
   height: 50px;
 }
 
+@media screen and (max-width: 600px) {
+  #mobile-sub {
+    display: block;
+  }
+
+  #title-sub {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  #mobile-sub {
+    display: block;
+  }
+
+  #title-sub {
+    display: none;
+  }
+}
 /* CARDS ---------------------------------------------*/
 /* Card animation credit - smashtheshell - https://codepen.io/smashtheshell/pen/XmmzVq */
 .align {
@@ -218,6 +236,22 @@ p {
   background: red;
 }
 
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  .align {
+    height: auto;
+  }
+
+  .card-vertical, .card-horizontal {
+    margin: 20px;
+    height: 150px;
+    width: 300px;
+  }
+
+  .card-img {
+    height: 100px;
+    width: 200px;
+  }
+}
 /* SIGN-OFF --------------------------------------------*/
 /*designed by & contact*/
 #contact-section {
@@ -247,4 +281,15 @@ p {
 #git-logo {
   height: 75px;
   width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-links {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  .contact-links {
+    width: 100%;
+  }
 }
